@@ -1,0 +1,11 @@
+.background-img {
+    background: linear-gradient(rgba(44, 8, 8, 0.5), rgba(3, 3, 115, 0.4)), url(../../Images/login.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card {
+    width: 400px;
+}
