@@ -14,7 +14,6 @@ const Carosel = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
                 <img
-                    style={{ height: "600px" }}
                     className="d-block w-100"
                     src={banner1}
                     alt="First slide"
@@ -26,7 +25,6 @@ const Carosel = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    style={{ height: "600px" }}
                     className="d-block w-100"
                     src={banner2}
                     alt="Second slide"
@@ -39,7 +37,6 @@ const Carosel = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    style={{ height: "600px" }}
                     className="d-block w-100"
                     src={banner3}
                     alt="Third slide"

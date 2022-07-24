@@ -1,0 +1,20 @@
+#man {
+    background-color: #f6c122;
+}
+
+#jewelery {
+    background-color: #d78ba0;
+}
+
+#electronics {
+    background-color: #236cda;
+}
+
+#Women {
+    background-color: #b242b2;
+}
+
+.category-img {
+    width: 100px;
+    height: 100px;
+}
