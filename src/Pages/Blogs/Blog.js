@@ -1,9 +1,10 @@
 import React from 'react';
+import blog from '../../Images/blog.jpg'
 
 const Blog = () => {
     return (
-        <div>
-            <h1>Blog</h1>
+        <div >
+            <img style={{ width: "100%", }} src={blog} class="img-fluid" alt="..." />
         </div>
     );
 };

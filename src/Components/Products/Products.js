@@ -6,7 +6,7 @@ const Products = () => {
     const products = useSelector((state) => state.allproducts.products)
     const dispatch = useDispatch()
     useEffect(() => {
-        fetch('https://fakestoreapi.com/products')
+        fetch('http://localhost:5000/products')
             .then(res => res.json())
             .then(data => dispatch(setProducts(data)))
     }, [])
@@ -18,7 +18,7 @@ const Products = () => {
             <div className='row g-4 p-5'>
                 {
                     products.map(product => <SingleProduct
-                        key={product.id}
+                        key={product._id}
                         product={product}
                     ></SingleProduct>
 

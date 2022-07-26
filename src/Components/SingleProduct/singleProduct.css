@@ -1,0 +1,10 @@
+.details {
+    width: 30%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
