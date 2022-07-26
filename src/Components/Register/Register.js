@@ -10,8 +10,8 @@ const Register = () => {
     }
     return (
         <div className='background-img' >
-            <h1 className='text-center text-light mt-3'>Create A New Account</h1>
-            <div className='d-flex align-items-center justify-content-center'>
+            <h1 className='text-center text-light mt-5'>Create A New Account</h1>
+            <div className='d-flex align-items-center justify-content-center mt-5'>
                 <div class="card mt-3" >
                     <div class="card-body">
                         <Form className='mb-3'>

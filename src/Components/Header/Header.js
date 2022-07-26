@@ -12,9 +12,9 @@ const Header = () => {
           <Nav className='mx-auto me-1'>
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/all-product">All Product</Nav.Link>
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
             <Nav.Link as={Link} to="/about-us">About-Us</Nav.Link>
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

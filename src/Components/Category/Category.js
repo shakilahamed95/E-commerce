@@ -7,7 +7,7 @@ import women from '../../Images/women.jpg'
 
 const Category = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5">
             <h2 className='text-primary text-center mb-5'> We Have</h2>
             <div className="row g-4">
                 <div className="col-lg-3">
