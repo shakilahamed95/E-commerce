@@ -10,7 +10,7 @@ const SingleProduct = ({ product }) => {
     }
 
     return (
-        <div className='col-sm-12 col-md-6 col-lg-4 card me-2'>
+        <div className='col-sm-12 col-md-6 col-lg-4 card me-2 g-4'>
             <img src={image} class="card-img-top ms-5" style={{ width: "270px", height: "270px" }} alt="..." />
             <div class="card-body ms-0">
                 <h5 class="card-title">{title}</h5>

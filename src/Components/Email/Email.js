@@ -35,7 +35,7 @@ const Email = (event) => {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Your Message</Form.Label>
-                        <textarea onChange={(event) => { setmessage(event.target.value) }} rows="6" cols="50" name="comment" placeholder='Type Your Message Here' className='rounded' />
+                        <textarea onChange={(event) => { setmessage(event.target.value) }} rows="6" cols="50" name="comment" placeholder='Type Your Message Here' className='rounded'/>
 
                     </Form.Group>
                     <button onClick={submitInfo} className='btn btn-primary mb-5'>Submit</button>
