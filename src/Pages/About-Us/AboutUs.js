@@ -1,9 +1,10 @@
 import React from 'react';
+import Email from '../../Components/Email/Email';
 
 const AboutUs = () => {
     return (
         <div>
-            <h1>This is our about us</h1>
+            <Email></Email>
         </div>
     );
 };

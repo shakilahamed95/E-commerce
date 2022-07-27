@@ -19,7 +19,7 @@ const Header = () => {
           <Nav className='mx-auto me-1'>
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/all-product">All Product</Nav.Link>
-            <Nav.Link as={Link} to="/about-us">About-Us</Nav.Link>
+            <Nav.Link as={Link} to="/contruct-us">Contruct-us</Nav.Link>
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
             {user ?
               <Nav.Link onClick={handleSignout}>Log Out</Nav.Link>
