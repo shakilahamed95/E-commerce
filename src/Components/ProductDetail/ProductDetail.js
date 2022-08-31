@@ -9,7 +9,7 @@ const ProductDetail = () => {
     const dispatch = useDispatch()
     const { id } = useParams()
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://stormy-depths-46428.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => dispatch(selectedProduct(data)))
         return () => { dispatch(removeSelectedProduct()) }

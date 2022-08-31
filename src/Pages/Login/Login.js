@@ -4,6 +4,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import SocialLogin from '../../Components/SocialLogin/SocialLogin';
 import auth from '../../firebase.init';
+import './Login.css'
 
 const Login = () => {
     const [
@@ -30,12 +31,12 @@ const Login = () => {
     }
 
     return (
-        <div className='background-img ' >
+        <div className='login-img ' >
             <h1 className='text-center text-light mt-5'> Please Login</h1>
             <div className='d-flex align-items-center justify-content-center mt-5'>
                 <div class="card mt-3" style={{ width: "30%" }}>
                     <div class="card-body">
-                        <Form className='mb-3' onSubmit={handleLogin}>
+                        <Form className='' onSubmit={handleLogin}>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control ref={emailref} type="email" required placeholder="Please Enter Your email" />

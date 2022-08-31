@@ -6,7 +6,7 @@ const Products = () => {
     const products = useSelector((state) => state.allproducts.products)
     const dispatch = useDispatch()
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://stormy-depths-46428.herokuapp.com/products')
             .then(res => res.json())
             .then(data => dispatch(setProducts(data)))
     }, [])
